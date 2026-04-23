@@ -1,9 +1,0 @@
-#### 📌 Exemplo de Consulta
-```sql
-SELECT * FROM users;
-resultado:
-| id | nome     | e-mail                                | status |
-| -- | -------- | ------------------------------------- | ------ |
-| 1  | Ana Lima | [ana@email.com](mailto:ana@email.com) | ativo  |
-
-nesse cenário foi solicitado o pedido dos usuários cadastrados.
