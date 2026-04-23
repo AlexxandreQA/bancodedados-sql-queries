@@ -1,4 +1,4 @@
-## consulta 1 busca de usuários
+1## consulta 1 busca de usuários
 
 comando:
 SELECT * FROM users;
@@ -11,10 +11,33 @@ Resultado
 comando para buscar todos os usuários
 esperado era aparecer os usuários cadastrados.
 
-## cadastrar 1 usuário novo busca de usuários alimentando todos os campos
+2## cadastrar 1 usuário novo busca de usuários alimentando todos os campos
 
-comando:
+comando1:
 INSERT INTO users (id, name, email, status)
 VALUES (2, 'Alexandre', 'alexxandre.portugal@gmail.com', 'ativo');
 
-resultado
+comando2
+SELECT * FROM users
+
+Resultado 
+| id | nome     | e-mail                                | status |
+| -- | -------- | ------------------------------------- | ------ |
+| 1  | Ana Lima | [ana@email.com](mailto:ana@email.com) | ativo  | 
+| 2  | Alexandre| [alexandre.portugal@gmail.com)        | ativo  |
+
+resultado, feito primeiro comando para criação de um novo usuário
+resultado 2, busca novamente dos usuários para verificar o cadastro.
+
+
+
+3## cadastrar 1 usuário novo busca de usuários alimentando todos os campos
+
+comando1
+INSERT INTO products (id, name, price, stock, category)
+VALUES (1, 'notebook', '400', '20', 'tecnologic');
+
+comando2
+select * from products
+
+
