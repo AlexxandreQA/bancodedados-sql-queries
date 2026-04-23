@@ -40,4 +40,13 @@ VALUES (1, 'notebook', '400', '20', 'tecnologic');
 comando2
 select * from products
 
+resultado
+| id | name     | price | stock | category   |
+| -- | -------- | ----- | ----- | ---------- |
+| 1  | notebook | 400   | 20    | tecnologic |
+
+primeiro comado, criação de produtos e cadastro efetuado correto
+segundo comando, consultar para verificar se o produto foi criado
+
+
 
